@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntelliNote - Notes Maker</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f6ff;
+            color: #4b0082;
+        }
+
+        header {
+            background-color: #5e3ca7;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #f8f6ff;
+            background-color: #4b0082;
+            padding: 10px 20px;
+            margin: 0 15px;
+            border-radius: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #6a0dad;
+        }
+
+        .hero {
+            background-image: linear-gradient(to bottom right, #6a0dad, #8a2be2);
+            height: 450px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .hero h2 {
+            font-size: 3em;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+            margin: 0;
+            max-width: 600px;
+        }
+
+        .content {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .content h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #4b0082;
+        }
+
+        .content p {
+            font-size: 1.2em;
+            color: #4b0082;
+            margin-bottom: 30px;
+        }
+
+        .content .button {
+            text-decoration: none;
+            color: white;
+            background-color: #4b0082;
+            padding: 15px 30px;
+            border-radius: 25px;
+            transition: background-color 0.3s ease;
+        }
+
+        .content .button:hover {
+            background-color: #6a0dad;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .features div {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            min-width: 280px;
+            transition: transform 0.3s ease;
+        }
+
+        .features div:hover {
+            transform: translateY(-10px);
+        }
+
+        .features h3 {
+            margin-top: 0;
+            font-size: 1.8em;
+            color: #4b0082;
+        }
+
+        .features p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .footer {
+            background-color: #4b0082;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+            box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>IntelliNote</h1>
+        <nav>
+            <a href="#login">Login</a>
+            <a href="#signup">Sign Up</a>
+            <a href="#features">Features</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div>
+            <h2>Transform Videos into Notes</h2>
+            <p>Your one-stop solution to turn video content into comprehensive notes, easily and efficiently.</p>
+        </div>
+    </section>
+
+    <section id="login" class="content">
+       
+        <h2 >Login</h2>
+        <p>Already have an account? Log in to access your notes.</p>
+        <a class="index.html" href="/login">Login</a>
+    </section>
+
+    <section id="signup" class="content">
+        <h2>Sign Up</h2>
+        <p>New here? Sign up to start creating notes from your videos.</p>
+        <a class="button" href="/signup">Sign Up</a>
+    </section>
+
+    <section id="features" class="features">
+        <div>
+            <h3>Upload Videos</h3>
+            <p>Upload your videos and convert them into detailed notes with just a few clicks.</p>
+        </div>
+        <div>
+            <h3>Organize Notes</h3>
+            <p>Keep your notes neatly organized and easily accessible at all times.</p>
+        </div>
+        <div>
+            <h3>Search & Share</h3>
+            <p>Quickly search through your notes and share them with others effortlessly.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 IntelliNote. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
